@@ -66,7 +66,7 @@ def upload(csv_file, environment_id, collection_id, debug=False):
     # remove temporary json file
     if os.path.exists(row_upload_file):
         os.remove(row_upload_file)
-        print("Temporary File Removed!".format(row_upload_file))
+        print("Temporary File {} Removed!".format(row_upload_file))
 
 
 def train(csv_file, environment_id, collection_id, debug=False):
@@ -116,7 +116,7 @@ def train(csv_file, environment_id, collection_id, debug=False):
     # remove temporary json file
     if os.path.exists(train_query_file):
         os.remove(train_query_file)
-        print("Temporary File Removed!".format(train_query_file))
+        print("Temporary File {} Removed!".format(train_query_file))
 
 
 if __name__ == '__main__':
