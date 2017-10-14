@@ -59,34 +59,34 @@ curl -u "75f48542-23da-4e17-a5ed-af780c16cc92":"q6e5a4U4nsqS" "https://gateway.w
 
 curl -u "75f48542-23da-4e17-a5ed-af780c16cc92":"q6e5a4U4nsqS" "https://gateway.watsonplatform.net/discovery/api/v1/environments/af3e2cb0-4fee-419a-933c-256a0d473266/collections/6072d7a3-91cb-4bbb-b6eb-597916af93c4?version=2017-09-01"
 
-{                                                                     
-  "collection_id" : "6072d7a3-91cb-4bbb-b6eb-597916af93c4",           
-  "name" : "japanese-collection",                                     
-  "configuration_id" : "551a3bcf-d043-49fe-924b-bf5d86a67820",        
-  "language" : "ja",                                                  
-  "status" : "active",                                                
-  "description" : "",                                                 
-  "created" : "2017-10-13T05:28:04.516Z",                             
-  "updated" : "2017-10-13T05:28:33.988Z",                             
-  "document_counts" : {                                               
-    "available" : 2,                                                  
-    "processing" : 0,                                                 
-    "failed" : 1                                                      
-  },                                                                  
-  "disk_usage" : {                                                    
-    "used_bytes" : 19515156                                           
-  },                                                                  
-  "training_status" : {                                               
-    "data_updated" : "",                                              
-    "total_examples" : 0,                                             
-    "sufficient_label_diversity" : false,                             
-    "processing" : false,                                             
-    "minimum_examples_added" : false,                                 
-    "successfully_trained" : "",                                      
-    "available" : false,                                              
-    "notices" : 0,                                                    
-    "minimum_queries_added" : false                                   
-  }                                                                   
+{
+  "collection_id" : "6072d7a3-91cb-4bbb-b6eb-597916af93c4",
+  "name" : "japanese-collection",
+  "configuration_id" : "551a3bcf-d043-49fe-924b-bf5d86a67820",
+  "language" : "ja",
+  "status" : "active",
+  "description" : "",
+  "created" : "2017-10-13T05:28:04.516Z",
+  "updated" : "2017-10-13T05:28:33.988Z",
+  "document_counts" : {
+    "available" : 2,
+    "processing" : 0,
+    "failed" : 1
+  },
+  "disk_usage" : {
+    "used_bytes" : 19515156
+  },
+  "training_status" : {
+    "data_updated" : "",
+    "total_examples" : 0,
+    "sufficient_label_diversity" : false,
+    "processing" : false,
+    "minimum_examples_added" : false,
+    "successfully_trained" : "",
+    "available" : false,
+    "notices" : 0,
+    "minimum_queries_added" : false
+  }
 }
 
 
@@ -123,5 +123,10 @@ curl -X DELETE -u "75f48542-23da-4e17-a5ed-af780c16cc92":"q6e5a4U4nsqS" "https:/
 }
 
 
+curl -u "75f48542-23da-4e17-a5ed-af780c16cc92":"q6e5a4U4nsqS" "https://gateway.watsonplatform.net/discovery/api/v1/environments/af3e2cb0-4fee-419a-933c-256a0d473266/collections/6072d7a3-91cb-4bbb-b6eb-597916af93c4/training_data?version=2017-09-01"
 
+curl -X DELETE \
+-u "{username}":"{password}" "https://gateway.watsonplatform.net/discovery/api/v1/environments/{environment_id}/collections/{collection_id}/training_data?version=2017-09-01"
+
+curl -u "75f48542-23da-4e17-a5ed-af780c16cc92":"q6e5a4U4nsqS" "https://gateway.watsonplatform.net/discovery/api/v1/environments/af3e2cb0-4fee-419a-933c-256a0d473266/collections/33d51e38-40f4-4355-bb0e-a81619d137b3/documents/8?version=2017-09-01"
 

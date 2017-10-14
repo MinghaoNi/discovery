@@ -1,6 +1,16 @@
+# Add Training Data into Discovery
+
+[Tutorial: Migrating from Retrieve and Rank](https://console.bluemix.net/docs/services/discovery/migrate-rnr-tut.html#adding-training-data-into-discovery)
+
 # API Reference
 
-[API Reference from IBM](https://www.ibm.com/watson/developercloud/discovery/api/v1/)
+**API Reference from IBM**
+
+https://www.ibm.com/watson/developercloud/discovery/api/v1/)
+
+**Python Module**
+
+https://pypi.python.org/pypi/watson-developer-cloud
 
 ## Environments
 
