@@ -37,8 +37,7 @@ def upload(csv_file, environment_id, collection_id, debug=False):
 
         for row in csv_reader:
 
-            dict_row = {'id': row[0],
-                        'question': row[1],
+            dict_row = {'question': row[1],
                         'answer': row[2]}
             json_row = json.dumps(dict_row)
             # save each row as a json file, row.json
@@ -47,13 +46,13 @@ def upload(csv_file, environment_id, collection_id, debug=False):
 
             # generate curl command
             url = BASE_URL + ADD_DOCUMNET_URL + '/{}?version={}'\
-                .format(dict_row['id'], VERSON)
+                .format(row[0], VERSON)
 
             curl_cmd = 'curl -X POST -u "{}":"{}" -F file=@{} "{}"'\
                        .format(CRENDIALS['username'], CRENDIALS['password'], row_upload_file, url)
 
             # upload row
-            print("**Upload Q&A: {}**".format(dict_row['id']))
+            print("**Upload Q&A: {}**".format(row[0]))
             process = subprocess.Popen(shlex.split(curl_cmd), stdout=subprocess.PIPE)
             output = process.communicate()
 
@@ -121,10 +120,10 @@ def train(csv_file, environment_id, collection_id, debug=False):
 
 if __name__ == '__main__':
 
-    upload(csv_file='_docs/index.csv',
-           environment_id='af3e2cb0-4fee-419a-933c-256a0d473266',
-           collection_id='33d51e38-40f4-4355-bb0e-a81619d137b3')
+    # upload(csv_file='_docs/index.csv',
+    #        environment_id='af3e2cb0-4fee-419a-933c-256a0d473266',
+    #        collection_id='bb18e626-4fda-4989-b8b5-44095c2cd542')
 
     train(csv_file='_docs/training.csv',
           environment_id='af3e2cb0-4fee-419a-933c-256a0d473266',
-          collection_id='33d51e38-40f4-4355-bb0e-a81619d137b3')
+          collection_id='bb18e626-4fda-4989-b8b5-44095c2cd542')
