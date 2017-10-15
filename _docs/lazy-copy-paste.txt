@@ -123,10 +123,58 @@ curl -X DELETE -u "75f48542-23da-4e17-a5ed-af780c16cc92":"q6e5a4U4nsqS" "https:/
 }
 
 
-curl -u "75f48542-23da-4e17-a5ed-af780c16cc92":"q6e5a4U4nsqS" "https://gateway.watsonplatform.net/discovery/api/v1/environments/af3e2cb0-4fee-419a-933c-256a0d473266/collections/6072d7a3-91cb-4bbb-b6eb-597916af93c4/training_data?version=2017-09-01"
+curl -u "75f48542-23da-4e17-a5ed-af780c16cc92":"q6e5a4U4nsqS" "https://gateway.watsonplatform.net/discovery/api/v1/environments/af3e2cb0-4fee-419a-933c-256a0d473266/collections/bb18e626-4fda-4989-b8b5-44095c2cd542/training_data?version=2017-09-01"
 
-curl -X DELETE \
--u "{username}":"{password}" "https://gateway.watsonplatform.net/discovery/api/v1/environments/{environment_id}/collections/{collection_id}/training_data?version=2017-09-01"
+curl -X DELETE -u "75f48542-23da-4e17-a5ed-af780c16cc92":"q6e5a4U4nsqS" "https://gateway.watsonplatform.net/discovery/api/v1/environments/af3e2cb0-4fee-419a-933c-256a0d473266/collections/bb18e626-4fda-4989-b8b5-44095c2cd542/training_data?version=2017-09-01"
 
-curl -u "75f48542-23da-4e17-a5ed-af780c16cc92":"q6e5a4U4nsqS" "https://gateway.watsonplatform.net/discovery/api/v1/environments/af3e2cb0-4fee-419a-933c-256a0d473266/collections/33d51e38-40f4-4355-bb0e-a81619d137b3/documents/8?version=2017-09-01"
+curl -u "75f48542-23da-4e17-a5ed-af780c16cc92":"q6e5a4U4nsqS" "https://gateway.watsonplatform.net/discovery/api/v1/environments/af3e2cb0-4fee-419a-933c-256a0d473266/collections/bb18e626-4fda-4989-b8b5-44095c2cd542/documents/231013?version=2017-09-01"
 
+
+Windows 8 で、コマンドプロンプトの起動方法が知りたい 197093  3
+
+curl -X POST \
+-u "75f48542-23da-4e17-a5ed-af780c16cc92":"q6e5a4U4nsqS" \
+-H "Content-Type: application/json" -d \
+'{
+  "natural_language_query": "Windows 8 で、コマンドプロンプトの起動方法が知りたい",
+  "examples": [
+    {
+      "document_id": "197093",
+      "relevance": 2
+    }
+  ]
+}' "https://gateway.watsonplatform.net/discovery/api/v1/environments/af3e2cb0-4fee-419a-933c-256a0d473266/collections/bb18e626-4fda-4989-b8b5-44095c2cd542/training_data?version=2017-09-01"
+
+curl -u "75f48542-23da-4e17-a5ed-af780c16cc92":"q6e5a4U4nsqS" "https://gateway.watsonplatform.net/discovery/api/v1/environments/af3e2cb0-4fee-419a-933c-256a0d473266/collections/33d51e38-40f4-4355-bb0e-a81619d137b3?version=2017-09-01"
+
+{
+  "collection_id" : "33d51e38-40f4-4355-bb0e-a81619d137b3",
+  "name" : "japanese-collection",
+  "configuration_id" : "551a3bcf-d043-49fe-924b-bf5d86a67820",
+  "language" : "ja",
+  "status" : "active",
+  "description" : null,
+  "created" : "2017-10-14T11:46:33.690Z",
+  "updated" : "2017-10-14T11:46:33.690Z",
+  "document_counts" : {
+    "available" : 4416,
+    "processing" : 0,
+    "failed" : 2
+  },
+  "disk_usage" : {
+    "used_bytes" : 12109341
+  },
+  "training_status" : {
+    "data_updated" : "2017-10-14T15:19:30.680Z",
+    "total_examples" : 676,
+    "sufficient_label_diversity" : true,
+    "processing" : false,
+    "minimum_examples_added" : true,
+    "successfully_trained" : "2017-10-14T15:19:40.581Z",
+    "available" : true,
+    "notices" : 1,
+    "minimum_queries_added" : true
+  }
+}
+
+ curl -u "75f48542-23da-4e17-a5ed-af780c16cc92":"q6e5a4U4nsqS" "https://gateway.watsonplatform.net/discovery/api/v1/environments/af3e2cb0-4fee-419a-933c-256a0d473266/collections/33d51e38-40f4-4355-bb0e-a81619d137b3/query?version=2017-09-01&natural_language_query='Windows%208%20で%20コマンドプロンプトの起動方法が知りたい'&passages=true"
