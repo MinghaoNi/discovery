@@ -1,0 +1,31 @@
+{
+    "examples": [{
+        "relevance": 2,
+        "document_id": "656"
+    }, {
+        "relevance": 2,
+        "document_id": "1313"
+    }, {
+        "relevance": 2,
+        "document_id": "1317"
+    }, {
+        "relevance": 1,
+        "document_id": "1316"
+    }, {
+        "relevance": 2,
+        "document_id": "1318"
+    }, {
+        "relevance": 2,
+        "document_id": "1319"
+    }, {
+        "relevance": 2,
+        "document_id": "1157"
+    }, {
+        "relevance": 2,
+        "document_id": "1274"
+    }, {
+        "relevance": 0,
+        "document_id": "1286"
+    }],
+    "natural_language_query": "in practice, how close to reality are the assumptions that the flow in a hypersonic shock tube using nitrogen is non-viscous and in thermodynamic equilibrium."
+}

@@ -1,0 +1,369 @@
+{
+	"matching_results": 4470,
+	"aggregations": [
+		{
+			"type": "term",
+			"field": "answer",
+			"count": 10,
+			"results": [
+				{
+					"key": "[症状]<br><DIV>ネットワークコンピュータで他のパソコンが見られない</DIV><br><br>[情報]<br><DIV>Microsoft Windows NT Workstation 4.0</DIV><br><br>",
+					"matching_results": 2
+				},
+				{
+					"key": "【概要】<BR>Aeroを有効にしたい<BR>Aeroの設定<BR><BR>【対象製品】<BR>Windows 8<BR><BR>【解説】<BR>Windows 8 ではタイルを使った新しいModern UIとの統一感を保つため、透明感のある Aero は実質廃止されました。",
+					"matching_results": 2
+				},
+				{
+					"key": "【概要】<BR>JIS90互換フォントを使いたい。<BR><BR>【対象製品】<BR>Windows 8<BR><BR>【解説】<BR>Windows 7まではJIS90互換フォントパッケージが別途ダウンロードすることが可能でしたが、Windows 8ではJIS2004へ完全移行したため、廃止されました。",
+					"matching_results": 2
+				},
+				{
+					"key": "1：Microsoft Officeボタン→Excelのオプションを選択。<BR>2：Microsoft Officeのユーザー設定の箇所に使用者の名前を入力する。<BR><BR>これでファイル使用中の場合に該当のユーザ名が表示されます。",
+					"matching_results": 1
+				},
+				{
+					"key": "2014/4/8（日本時間では2014/4/9）が Windows XP のサポート期限ですが、サポートが終了しても継続して利用することは可能です。<BR><BR>しかしセキュリティリスクが高まる、周辺機器やソフトウェアが対応しなくなるなど、十分なサポートが得られなくなるため、Windows 7 や Windows 8 への早期移行を推奨いたします。<BR>",
+					"matching_results": 1
+				},
+				{
+					"key": "2とおりの方法があります。（どちらか一方を実行すればよい）<br><br>１、アクセス元のServer&nbsp;2003のWindowsコンポーネントの追加と削除で、「IEセキュリティ強化の構成」チェックをはずす。<br><br>２、アクセス元のWindows&nbsp;Server&nbsp;2003のIEのインターネットオプションで、アクセス先のサーバーをイントラネット&nbsp;ゾーンに含める。（file://＜サーバー名＞形式）",
+					"matching_results": 1
+				},
+				{
+					"key": "<P>1015を超えるセキュリティグループのメンバーであるユーザーはコンピューターにログオンできません。<BR>これはシステム上の制限であり、回避できません。</P><P>&lt;参考&gt;http://support.microsoft.com/kb/328889/ja</P>",
+					"matching_results": 1
+				},
+				{
+					"key": "<P>1：System Recoveryのメニューからツールを選択。<BR>2：Recovery point browserを選択。<BR>3：リカバリポイントを選択。<BR>4：OKを押すとバックアップの内容が表示されるので、該当のファイルやフォルダを探す。<BR>5：リストアしたいファイルやフォルダを右クリックし、修復を選択。<BR>6：このフォルダに修復、の箇所でリストア場所を選択できるので選択の上修復を選択。<BR>7：手順6で選択した場所にファイルがリストアされます。</P>",
+					"matching_results": 1
+				},
+				{
+					"key": "<P>1：該当のファイルサーバにリモートデスクトップに接続。コマンドプロンプトを起動。</P><P>2：コマンドプロンプトからnet fileを実行。</P><P>3：ファイルのID、パス、ユーザ名、ロックの状態が表示される。</P><P>※開いたままロックがかかっているファイルがある場合、IDを確認の上、net file&nbsp;(ファイルID) /closeコマンドにて強制クローズ可能。</P>",
+					"matching_results": 1
+				},
+				{
+					"key": "<P>【操作方法】<BR>コマンドプロンプトで、次のコマンドを実行します。<BR>　nbtstat -A IPアドレス<BR><BR>　例）nbtstat -A w.x.y.z <BR><BR>リモートコンピュータのNetBIOSネームテーブルを確認できますので、名前欄の情報を確認してください。</P>",
+					"matching_results": 1
+				}
+			]
+		}
+	],
+	"passages": [
+		{
+			"document_id": "197093",
+			"passage_score": 22.36770821879011,
+			"passage_text": "[Windows 8]　コマンドプロンプトの起動方法",
+			"start_offset": 0,
+			"end_offset": 26,
+			"field": "question"
+		},
+		{
+			"document_id": "195714",
+			"passage_score": 22.36770821879011,
+			"passage_text": "[Windows 8]　コマンドプロンプトの起動方法",
+			"start_offset": 0,
+			"end_offset": 26,
+			"field": "question"
+		},
+		{
+			"document_id": "199546",
+			"passage_score": 20.907502203516398,
+			"passage_text": "[Windows 8]　IPアドレスの確認方法　�@コマンドプロンプトでの確認",
+			"start_offset": 0,
+			"end_offset": 39,
+			"field": "question"
+		},
+		{
+			"document_id": "195716",
+			"passage_score": 20.907502203516398,
+			"passage_text": "[Windows 8]　IPアドレスの確認方法　�@コマンドプロンプトでの確認",
+			"start_offset": 0,
+			"end_offset": 39,
+			"field": "question"
+		},
+		{
+			"document_id": "119882",
+			"passage_score": 19.237530800800876,
+			"passage_text": "[Windows 7] 管理者モードで起動したコマンドプロンプトにファイルをドラッグしてもファイルのパスが挿入されない",
+			"start_offset": 0,
+			"end_offset": 59,
+			"field": "question"
+		},
+		{
+			"document_id": "56421",
+			"passage_score": 17.60998723584573,
+			"passage_text": "[Windows2000] コマンドプロンプトの入力補完機能を使う方法（起動時のオプションを使用）",
+			"start_offset": 0,
+			"end_offset": 49,
+			"field": "question"
+		},
+		{
+			"document_id": "79499",
+			"passage_score": 16.639651850743643,
+			"passage_text": "[ゴール]<br><DIV>デフラグ（ディスクの最適化）とはどのような処理を実行するか知りたい</DIV><br><DIV>デフラグ（ディスクの最適化）の起動方法</DIV><br><DIV>スタートアップに登録され自動実行される「Taskmon.exe」とは何か知りたい</DIV><br><br>[症状]<br><DIV>Windows 95のデフラグに比べて動作が遅い、時間がかかる</DIV",
+			"start_offset": 0,
+			"end_offset": 199,
+			"field": "answer"
+		},
+		{
+			"document_id": "45741",
+			"passage_score": 16.359216537949393,
+			"passage_text": "[Windows] 特定のIPアドレスをどのクライアントで使用しているかを知る方法",
+			"start_offset": 0,
+			"end_offset": 41,
+			"field": "question"
+		},
+		{
+			"document_id": "192636",
+			"passage_score": 16.29657296516007,
+			"passage_text": "[Windows 7] シャットダウンする時にクリックするボタンの名称を知りたい",
+			"start_offset": 0,
+			"end_offset": 40,
+			"field": "question"
+		},
+		{
+			"document_id": "164339",
+			"passage_score": 15.326210969809921,
+			"passage_text": "【Windows 8】コマンドプロンプトなど各種管理ツールの開き方（デスクトップ）",
+			"start_offset": 0,
+			"end_offset": 41,
+			"field": "question"
+		}
+	],
+	"results": [
+		{
+			"id": "197093",
+			"score": 1,
+			"question": "[Windows 8]　コマンドプロンプトの起動方法",
+			"answer": "【概要】<BR>　Windows8でコマンドプロンプトを起動する方法<BR><BR>【製品情報】<BR>　Windows 8<BR>　Windows 8 Pro<BR>　Windows 8 Enterprise<BR><BR><P>【操作方法】<BR><P>　1.カーソルを右上又は右下に移動しチャームを表示し、検索を選択します。<BR>　　（「Windows」キー+「C」キー　でもチャームが表示されます。）<BR>　　　<BR>　　　<IMG border=0 alt=30-1.jpg align=bottom src=\"./image/195714_30-1.jpg\" width=538 height=320><BR><BR><BR>　2.アプリの検索の状態で、「コマンド」と入力します。<BR>　　（cmdと入力しても検索できます。）<BR>　　　<BR>　3.左側の検索結果より「コマンドプロンプト」を選択します。<BR>　　　<BR>　　　<IMG border=0 alt=31-1.jpg align=bottom src=\"./image/195714_31-1.jpg\" width=496 height=257><BR><BR><BR><BR>　4.コマンドプロンプトが起動します。<BR>　　　　　　<IMG border=0 alt=33.jpg align=bottom src=\"./image/195714_33.jpg\" width=677 height=493><BR><BR><BR></P>",
+			"extracted_metadata": {
+				"sha1": "95dc954f75c18ef1d8e22c5648b552180f66a9a2",
+				"filename": "row.json",
+				"file_type": "json"
+			},
+			"highlight": {
+				"question": [
+					"[<em>Windows</em> <em>8</em>]　<em>コマンドプロンプト</em><em>の</em><em>起動</em><em>方法</em>"
+				],
+				"answer": [
+					"【概要】<BR>　<em>Windows</em><em>8</em><em>で</em><em>コマンドプロンプト</em>を<em>起動</em>する<em>方法</em><BR><BR>【製品情報】<BR>　<em>Windows</em> <em>8</em><BR>　<em>Windows</em> <em>8</em> Pro<BR>　<em>Windows</em> <em>8</em>",
+					" Enterprise<BR><BR><P>【操作<em>方法</em>】<BR><P>　1.カーソルを右上又は右下に移動しチャームを表示し、検索を選択します。<BR>　　（「<em>Windows</em>」キー+「C」キー　でもチャーム<em>が</em>表示",
+					"\" width=496 height=257><BR><BR><BR><BR>　4.<em>コマンドプロンプト</em><em>が</em><em>起動</em>します。<BR>　　　　　　<IMG border=0 alt=33.jpg align",
+					" height=320><BR><BR><BR>　2.アプリ<em>の</em>検索<em>の</em>状態<em>で</em>、「コマンド」と入力します。<BR>　　（cmdと入力しても検索できます。）<BR>　　　<BR>　3.左側<em>の</em>検索結果より",
+					"「<em>コマンドプロンプト</em>」を選択します。<BR>　　　<BR>　　　<IMG border=0 alt=31-1.jpg align=bottom src=\"./image/195714_31-1.jpg"
+				],
+				"extracted_metadata.sha1": [
+					"95dc954f75c18ef1d<em>8</em>e22c5648b552180f66a9a2"
+				]
+			}
+		},
+		{
+			"id": "195714",
+			"score": 1,
+			"question": "[Windows 8]　コマンドプロンプトの起動方法",
+			"answer": "【概要】<BR>　Windows8でコマンドプロンプトを起動する方法を紹介いたします。<BR><BR>【製品情報】<BR>　Windows 8<BR>　Windows 8 Pro<BR>　Windows 8 Enterprise<BR><BR>【手順】<BR><BR>　1.カーソルを右上又は右下に移動しチャームを表示し、検索を選択する。<BR>　　（「Windows」キー+「C」キー　でもチャームが表示されます）<BR>　　　<BR>　　　<IMG border=0 alt=30-1.jpg align=bottom src=\"./image/195714_30-1.jpg\" width=538 height=320><BR><BR><BR>　2.アプリの検索の状態で、「コマンド」と入力する。<BR>　　（cmdと入力しても検索できます）<BR>　　　<BR>　3.左側の検索結果より　「コマンドプロンプト」を選択する。<BR>　　　<BR>　　　<IMG border=0 alt=31-1.jpg align=bottom src=\"./image/195714_31-1.jpg\" width=496 height=257><BR><BR><BR><BR>　4.コマンドプロンプトが起動します。<BR><BR>　　　<BR>　　　　<IMG border=0 alt=33.jpg align=bottom src=\"./image/195714_33.jpg\" width=677 height=493><BR><BR><BR>",
+			"extracted_metadata": {
+				"sha1": "4d9dbcd22f5602e49455450f3df704531ec47418",
+				"filename": "row.json",
+				"file_type": "json"
+			},
+			"highlight": {
+				"question": [
+					"[<em>Windows</em> <em>8</em>]　<em>コマンドプロンプト</em><em>の</em><em>起動</em><em>方法</em>"
+				],
+				"answer": [
+					"【概要】<BR>　<em>Windows</em><em>8</em><em>で</em><em>コマンドプロンプト</em>を<em>起動</em>する<em>方法</em>を紹介いたします。<BR><BR>【製品情報】<BR>　<em>Windows</em> <em>8</em><BR>　<em>Windows</em> <em>8</em> Pro<BR",
+					"\" width=496 height=257><BR><BR><BR><BR>　4.<em>コマンドプロンプト</em><em>が</em><em>起動</em>します。<BR><BR>　　　<BR>　　　　<IMG border=0 alt=33.jpg",
+					">　<em>Windows</em> <em>8</em> Enterprise<BR><BR>【手順】<BR><BR>　1.カーソルを右上又は右下に移動しチャームを表示し、検索を選択する。<BR>　　（「<em>Windows</em>」キー+「C」キー　でも",
+					"=538 height=320><BR><BR><BR>　2.アプリ<em>の</em>検索<em>の</em>状態<em>で</em>、「コマンド」と入力する。<BR>　　（cmdと入力しても検索できます）<BR>　　　<BR>　3.左側<em>の</em>検索結果より",
+					"チャーム<em>が</em>表示されます）<BR>　　　<BR>　　　<IMG border=0 alt=30-1.jpg align=bottom src=\"./image/195714_30-1.jpg\" width"
+				]
+			}
+		},
+		{
+			"id": "171386",
+			"score": 1,
+			"question": "Windows XPで STOPエラー(0xc0000218)表示、OSが起動しない　　Windows XPモデル起動時に、以下のようなエラーが表示されてOSが起動しない場合の原因と解決策を知りたい。◎Stop 0xc0000218 (0xe11a30e8, 0x00000000, 0x000000000, 0x00000000)　UNKNOWN_HARD_ERROR◎Stop: 0xc0000218 {Registry File Failure}　レジストリは、ハイブ (ファイル)　\\SystemRoot\\System32\\Config\\SYSTEM、そのログ、または代替ファイルを読み込めません。壊れているか、紛失したか、または書き込み不可能です。",
+			"answer": "<br>　このエラーは、レジストリファイルが壊れているか存在しない場合に発生します。<br><br>　このような現象が発生する原因としては、ハードウェアの故障の場合やソフトウェア的な問題(例えば強制電源断などによる破損など)の場合があります。<br><br>　現象が発生する前後の状況などから、もしソフトウェア的な問題の可能性が高いと思われる場合は、システムの復旧にはPCの再セットアップを行う必要があります(*1)。<br><br>(*1):再セットアップを行うとPC内のデータは消失してしまいますので、普段よりバックアップを行っておく必要があります。<br>バックアップの方法にはWindows&nbsp;XP標準の「バックアップ」や市販ソフトなどもありますが、Mate/VersaProシリーズ(Jシリーズを除く)では「StandbyDisk&nbsp;Solo&nbsp;RB」という起動HDD全体をバックアップするソフトウェアも標準添付しておりますので宜しければご活用下さい。再セットアップをする場合の具体的な手順は、パソコン本体添付のマニュアル「活用ガイド　再セットアップ編」をご覧下さい。<br><br>＜注意＞<br><br>　Microsoft社のサポート技術情報には、本エラーメッセージの対処方法として「回復コンソール」を利用した方法が何件か紹介されております(文書番号:307545や436927)が、これは、Mate/VersaProシリーズのようなプリインストールOSには、基本的に適用できません(*2)のでご留意下さい。<br><br>　例えば、文書番号:307545には「OEMによってインストールされている場合、この資料に記載されている手順を使用しないで下さい」、文書番号436927には「一部のPreinstall&nbsp;PCをお使いの場合、〜本回避策は適用できません」との記載となっております。<br><br>(*2):もし、Windows&nbsp;XP標準の「バックアップ(スタートメニュー→すべてのプログラム→アクセサリ→システムツールに登録されています)」で「System&nbsp;State」もしくは「このコンピュータにある情報をすべて」を指定してバックアップを行っていた場合は、プリインストールOSの場合でも、MS社サポート技術情報307545のような、Windows&nbsp;XPを起...",
+			"extracted_metadata": {
+				"sha1": "8b7def3ccc1eb5b9854607db320b207cbb396b72",
+				"filename": "row.json",
+				"file_type": "json"
+			},
+			"highlight": {
+				"question": [
+					"<em>Windows</em> XP<em>で</em> STOPエラー(0xc0000218)表示、OS<em>が</em><em>起動</em>しない　　<em>Windows</em> XPモデル<em>起動</em>時に、以下<em>の</em>ようなエラー<em>が</em>表示されてOS<em>が</em><em>起動</em>しない場合<em>の</em>原因と解決策を<em>知り</em><em>たい</em>",
+					"。◎Stop 0xc0000218 (0xe11a30e<em>8</em>, 0x00000000, 0x000000000, 0x00000000)　UNKNOWN_HARD_ERROR◎Stop: 0xc"
+				],
+				"answer": [
+					"<em>の</em>ような、<em>Windows</em>&nbsp;XPを<em>起動</em>させる為<em>の</em><em>方法</em><em>が</em>利用できる可能性<em>が</em>あります。(ただし、同情報にも記載されているように、システムを完全に回復するわけではありません点はご留意下さい)<br",
+					"番号:436927<br>ファイル<em>が</em>失われているか壊れていて&nbsp;<em>Windows</em>&nbsp;XP&nbsp;を<em>起動</em>できない場合に回復コンソール<em>で</em>修復する<em>方法</em><br><br>登録日　2005/07",
+					"<em>が</em>あります(*1)。<br><br>(*1):再セットアップを行うとPC内<em>の</em>データは消失してしまいますので、普段よりバックアップを行っておく必要<em>が</em>あります。<br>バックアップ<em>の</em><em>方法</em>には<em>Windows</em>",
+					"&nbsp;XP標準<em>の</em>「バックアップ」や市販ソフトなどもあります<em>が</em>、Mate/VersaProシリーズ(Jシリーズを除く)<em>で</em>は「StandbyDisk&nbsp;Solo&nbsp;RB」という<em>起動</em>",
+					"トラブルシューティング<br><br>・文書番号:307545<br>レジストリ<em>の</em>破損により&nbsp;<em>Windows</em>&nbsp;XP&nbsp;を<em>起動</em>できなくなった場合<em>の</em>回復<em>方法</em><br><br>・文書"
+				],
+				"extracted_metadata.sha1": [
+					"<em>8</em>b7def3ccc1eb5b9854607db320b207cbb396b72"
+				]
+			}
+		},
+		{
+			"id": "192636",
+			"score": 1,
+			"question": "[Windows 7] シャットダウンする時にクリックするボタンの名称を知りたい",
+			"answer": "【概要】<BR>シャットダウンする時にクリックするのボタンの名称を知りたい<BR>[Ctrl]+[Alt]+[Delete]のロック画面右下に表示されるシャットダウンボタンの正式名称について知りたい<BR><BR><IMG border=0 align=bottom src=\"./image/192636_Win7%20Home.jpg\" width=127 height=83><BR><BR>【対象製品】<BR>Windows 7<BR><BR>【解説】<BR>正式名称は「電源ボタン」または「Power Button」です。 <BR>他のWindowsのバージョンでも名称は同じです。",
+			"extracted_metadata": {
+				"sha1": "8a7e1e30dd5513ee6dd5ef0115c5c297a19a470a",
+				"filename": "row.json",
+				"file_type": "json"
+			},
+			"highlight": {
+				"question": [
+					"[<em>Windows</em> 7] シャットダウンする時にクリックするボタン<em>の</em>名称を<em>知り</em><em>たい</em>"
+				],
+				"answer": [
+					"【概要】<BR>シャットダウンする時にクリックする<em>の</em>ボタン<em>の</em>名称を<em>知り</em><em>たい</em><BR>[Ctrl]+[Alt]+[Delete]<em>の</em>ロック画面右下に表示されるシャットダウンボタン<em>の</em>正式名称について<em>知り</em><em>たい</em>",
+					">【対象製品】<BR><em>Windows</em> 7<BR><BR>【解説】<BR>正式名称は「電源ボタン」または「Power Button」です。 <BR>他<em>の</em><em>Windows</em><em>の</em>バージョン<em>で</em>も名称は同じです。"
+				],
+				"extracted_metadata.sha1": [
+					"<em>8</em>a7e1e30dd5513ee6dd5ef0115c5c297a19a470a"
+				]
+			}
+		},
+		{
+			"id": "61933",
+			"score": 1,
+			"question": "パスワードの最大文字数を知りたい",
+			"answer": "[ゴール]<br>パスワードの最大文字数を知りたい<br><br>[情報]<br>Microsoft Windows 2000<br>Microsoft Windows Server 2003<br><br>",
+			"extracted_metadata": {
+				"sha1": "1b7973ec0360df483b122ce66add275a5fde611a",
+				"filename": "row.json",
+				"file_type": "json"
+			},
+			"highlight": {
+				"question": [
+					"パスワード<em>の</em>最大文字数を<em>知り</em><em>たい</em>"
+				],
+				"answer": [
+					"[ゴール]<br>パスワード<em>の</em>最大文字数を<em>知り</em><em>たい</em><br><br>[情報]<br>Microsoft <em>Windows</em> 2000<br>Microsoft <em>Windows</em> Server 2003<br><br>"
+				]
+			}
+		},
+		{
+			"id": "119882",
+			"score": 1,
+			"question": "[Windows 7] 管理者モードで起動したコマンドプロンプトにファイルをドラッグしてもファイルのパスが挿入されない",
+			"answer": "[症状]<br>管理者モードで起動したコマンドプロンプト（cmd.exe）にファイルをドラッグしてもファイルのパスが挿入されない<br>ファイルをドラッグしてコマンドプロンプト（cmd.exe）にドロップすることができない<br><br>[ゴール]<br>コマンドプロンプト（cmd.exe）にファイルのパス（ファイル名）を挿入・貼り付けする方法<br><br>[情報]<br>Windows 7<br><br>[処置]<br><SPAN>【操作方法】<BR></SPAN>ファイルのアイコンをドラッグしてコマンドプロンプトのウィンドウにドロップすると、通常はファイルのフルパスが挿入されます、管理者モードで起動したコマンドプロンプトに対してはこの機能が動作しません。<BR><SPAN><BR><SPAN>管理者モードのコマンドプロンプトにファイルのフルパスを挿入するには下記の手順で操作します。<BR><SPAN><BR>1.ファイルを［Shift］キーを押しながら右クリックし、［パスとしてコピー］をクリックします。<BR><SPAN>　　<IMG title=8ed5f91c-84b6-4175-9bc3-7c09fd79fa55/PATTLNK_262007_049-image1.png src=\"bind/pattlnk_262007_049-image1.png\"><BR></SPAN><BR>2.コマンドプロンプト上で右クリックし、［貼り付け］をクリックします。<BR>　　<IMG title=8ed5f91c-84b6-4175-9bc3-7c09fd79fa55/PATTLNK_262007_051-image2.png src=\"bind/pattlnk_262007_051-image2.png\"></SPAN></SPAN></SPAN><br><br>",
+			"extracted_metadata": {
+				"sha1": "753dfad914404b7bef2e2376710b9ed97611df47",
+				"filename": "row.json",
+				"file_type": "json"
+			},
+			"highlight": {
+				"question": [
+					"[<em>Windows</em> 7] 管理者モード<em>で</em><em>起動</em>した<em>コマンドプロンプト</em>にファイルをドラッグしてもファイル<em>の</em>パス<em>が</em>挿入されない"
+				],
+				"answer": [
+					"[症状]<br>管理者モード<em>で</em><em>起動</em>した<em>コマンドプロンプト</em>（cmd.exe）にファイルをドラッグしてもファイル<em>の</em>パス<em>が</em>挿入されない<br>ファイルをドラッグして<em>コマンドプロンプト</em>（cmd.exe）に",
+					"ドロップすること<em>が</em>できない<br><br>[ゴール]<br><em>コマンドプロンプト</em>（cmd.exe）にファイル<em>の</em>パス（ファイル名）を挿入・貼り付けする<em>方法</em><br><br>[情報]<br><em>Windows</em> 7",
+					"者モード<em>で</em><em>起動</em>した<em>コマンドプロンプト</em>に対してはこの機能<em>が</em>動作しません。<BR><SPAN><BR><SPAN>管理者モード<em>の</em><em>コマンドプロンプト</em>にファイル<em>の</em>フルパスを挿入するには下記<em>の</em>手順<em>で</em>操作します",
+					"<br><br>[処置]<br><SPAN>【操作<em>方法</em>】<BR></SPAN>ファイル<em>の</em>アイコンをドラッグして<em>コマンドプロンプト</em><em>の</em>ウィンドウにドロップすると、通常はファイル<em>の</em>フルパス<em>が</em>挿入されます、管理",
+					"></SPAN><BR>2.<em>コマンドプロンプト</em>上<em>で</em>右クリックし、［貼り付け］をクリックします。<BR>　　<IMG title=<em>8</em>ed5f91c-84b6-4175-9bc3-7c09fd79fa55"
+				]
+			}
+		},
+		{
+			"id": "43883",
+			"score": 1,
+			"question": "[AutoCAD2000] Windows2000で動作するのか知りたい",
+			"answer": "[ゴール]<BR><DIV>AutoCAD 2000 および AutoCAD LT 2000 がWindows 2000 で動作するかどうかのご説明。</DIV><BR><BR>[情報]<BR><DIV>オートデスク AutoCAD 2000</DIV><BR><DIV>オートデスク AutoCAD LT 2000</DIV><BR><DIV>Microsoft Windows 2000</DIV><BR><BR>[処置]<BR><DIV>Winodws 2000 上で AutoCAD 2000 および AutoCAD LT 2000 を使用する場合、以下の点にご注意ください。<BR><BR></DIV><DIV>1） Windows 95 または Windows 98 から Windows 2000 へオペレーティングシステムをアップグッレードした場合の使用<BR><BR>この場合、ハードウェアロック（HWL）が認識できず、AutoCAD 2000 が起動できません。<BR>AutoCAD 2000 を再インストールしてください。</DIV><DIV><BR>2） NEC PC9821 での使用</DIV><DIV><BR>AutoCAD 2000 は、NEC PC9821 シリーズではご利用いただけません。</DIV><DIV><BR>3） ネットワーク環境での制限事項と対応方法</DIV><DIV><BR>◆Windows 2000 をクライアントとし、TCP/IP プロトコルを使用する場合</DIV><DIV>AutoCAD 2000 製品の CD−ROM から、Winodws 2000 をクライアントとし、TCP/IP プロトコルを使用してインストールした場合、AutoCAD 2000 は起動できません。</DIV><DIV>このようなネットワーク環境で AutoCAD 2000 を起動させるには、弊社ホームページに「Windows 2000 用ネットワークアップデートファイル」（ <A href=\"http://www.autodesk.co.jp/prodsup/autocad/download/index.htm\" target=’_blank’>http://www.autodesk.co.jp/prodsup/autocad/download/index.htm</A> ）をご用意してお...",
+			"extracted_metadata": {
+				"sha1": "4005a70d44ca64253cf784d2d87b80adff73b0c1",
+				"filename": "row.json",
+				"file_type": "json"
+			},
+			"highlight": {
+				"question": [
+					"[AutoCAD2000] <em>Windows</em>2000<em>で</em>動作する<em>の</em>か<em>知り</em><em>たい</em>"
+				],
+				"answer": [
+					"[ゴール]<BR><DIV>AutoCAD 2000 および AutoCAD LT 2000 <em>が</em><em>Windows</em> 2000 <em>で</em>動作するかどうか<em>の</em>ご説明。</DIV><BR><BR>[情報]<BR",
+					"場合、Novell <em>が</em>提供するクライアント<em>の</em>サービスである <em>Windows</em> 2000 用 Client32 <em>が</em>必要です<em>が</em>、現時点<em>で</em>はまだ提供されていません。入手可能になり次第、動作確認をする予定です",
+					"） Users グループ（制限ユーザー）<em>で</em><em>の</em><em>起動</em><em>の</em>問題と対応<em>方法</em></DIV><DIV><BR>AutoCAD 2000 または LT 2000 を Users グループ<em>の</em>アカウント<em>で</em><em>起動</em>すると",
+					"を使用した場合、データーベース接続<em>で</em>、問題<em>が</em>生じます。<BR>この問題は、<em>Windows</em> 2000 に含まれる、Jet ドライバ<em>の</em>バージョン（4.0）<em>が</em>新しくなっているためです。この問題を回避するには",
+					"インストールした際に再<em>起動</em><em>の</em>メッセージ<em>が</em>表示されない</DIV><DIV><BR>必要な場合は、手動<em>で</em>再<em>起動</em>してください。</DIV><DIV><BR>7） AutoCAD 2000 または LT 2000"
+				]
+			}
+		},
+		{
+			"id": "45741",
+			"score": 1,
+			"question": "[Windows] 特定のIPアドレスをどのクライアントで使用しているかを知る方法",
+			"answer": "[ゴール]<BR>特定のIPアドレスをどのクライアントで使用しているかを知る方法<BR><BR>[情報]<BR>Microsoft Windows NT Server<BR>Microsoft Windows 2000 Server<BR>Microsoft Windows NT<BR>Microsoft Windows<BR><BR>[症状]<BR>あるコンピュータに設定されているIPアドレスがネットワーク上の他のコンピュータと重複していた場合、「IPアドレスが競合しています」というメッセージがでて、そのコンピュータはネットワークに入ることができません。<BR><BR>[処置]<BR>以下の方法で、そのIPアドレスを既に使用しているコンピュータのコンピュータ名とログオンしているユーザ名を確認することができます。<BR><BR>1.　正常にネットワークにつながっているコンピュータで、MS-DOSプロンプト（Windows9X系）もしくはコマンドプロンプト（WindowsNT系）を起動します。<BR>2.　nbtstat -A &lt;IPアドレス&gt;　と入力します。＊Aは大文字です。<BR>3.　「NetBIOS Remote Machine Name Table」が表示されます。<BR>4.　「Name」情報の＜＞で囲まれた部分が＜00＞で「Type」が「UNIQUE」であるものがそのコンピュータの名前（NetBIOSホスト名）です。＜03＞のものはログオンしているユーザ名になります。<BR><BR>　　例）以下では「AAAA」がコンピュータ名で「BBBB」がユーザ名です。<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NetBIOS Remote Machine Name Table<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Status<BR>　　---------------------------------------------<BR>　　AAAA&nbsp;&n...",
+			"extracted_metadata": {
+				"sha1": "dd71965925d9767d7c7274c879598ca08bfb5a35",
+				"filename": "row.json",
+				"file_type": "json"
+			},
+			"highlight": {
+				"question": [
+					"[<em>Windows</em>] 特定<em>の</em>IPアドレスをどのクライアント<em>で</em>使用しているかを<em>知る</em><em>方法</em>"
+				],
+				"answer": [
+					"[ゴール]<BR>特定<em>の</em>IPアドレスをどのクライアント<em>で</em>使用しているかを<em>知る</em><em>方法</em><BR><BR>[情報]<BR>Microsoft <em>Windows</em> NT Server<BR>Microsoft",
+					"<em>の</em><em>方法</em><em>で</em>、そのIPアドレスを既に使用しているコンピュータ<em>の</em>コンピュータ名とログオンしているユーザ名を確認すること<em>が</em>できます。<BR><BR>1.　正常にネットワークにつながっているコンピュータ<em>で</em>、MS",
+					"-DOSプロンプト（<em>Windows</em>9X系）もしくは<em>コマンドプロンプト</em>（WindowsNT系）を<em>起動</em>します。<BR>2.　nbtstat -A &lt;IPアドレス&gt;　と入力します。＊Aは大",
+					"文字です。<BR>3.　「NetBIOS Remote Machine Name Table」<em>が</em>表示されます。<BR>4.　「Name」情報<em>の</em>＜＞<em>で</em>囲まれた部分<em>が</em>＜00＞<em>で</em>「Type」<em>が</em>「UNIQUE」で",
+					"あるもの<em>が</em>そのコンピュータ<em>の</em>名前（NetBIOSホスト名）です。＜03＞<em>の</em>ものはログオンしているユーザ名になります。<BR><BR>　　例）以下<em>で</em>は「AAAA」<em>が</em>コンピュータ名<em>で</em>「BBBB」<em>が</em>ユーザ名"
+				]
+			}
+		},
+		{
+			"id": "171379",
+			"score": 1,
+			"question": "Windows XPで自動ログオンができなくなった　　Windows XPで自動ログオンの設定をしていたが、ある時から自動でログインせず、起動時に「ようこそ画面」が表示され、ユーザをいちいち選択しないとログオンできなくなった。回避方法が知りたい。",
+			"answer": "<br>　本件は、(ドメインではなく)ワークグループ環境で利用しているPCに.NET&nbsp;Framework&nbsp;をインストールした場合(Windows&nbsp;Update等で提供されています)や、.NET&nbsp;Frameworkを使用したアプリケーション(Office&nbsp;2003&nbsp;Personal等)をインストールした際に、自動的に追加されるユーザアカウント「ASP.NET&nbsp;Machine&nbsp;Accont」に起因します。<br><br>　詳細の原因及び対処方法は下記のWebをご参照下さい。<br><br><br>マイクロソフト社Webページ&nbsp;-&nbsp;サポート技術情報:827072<br><br>.NET&nbsp;Framework&nbsp;1.1のインストール後、Windows&nbsp;XPの起動時に&quot;ようこそ&quot;画面が表示される<br><br>マイクロソフト社Webページ&nbsp;-&nbsp;サポート技術情報:830289<br><br>Microsoft&nbsp;Office&nbsp;Home&nbsp;Style&nbsp;+&nbsp;のインストール後、ようこそ画面が表示される<br><br>121ware.com&nbsp;-&nbsp;情報番号:006557<br>Windows&nbsp;Update後、起動時にユーザーアカウントを選択するようになった場合<br><br>登録日　2004/07/21<br><br>備考　No.6649<br><br><br>(NECファーストコンタクトセンターQ&amp;A情報から転載)<br><br>10/5&nbsp;Tα修理受付センターTSG&nbsp;城山<br>　http://support.microsoft.com/default.aspx?scid=kb;JA;827072<br>http://support.microsoft.com/default.aspx?scid=kb;ja;830289<br>http://121ware.com/qasearch/1007/app/nec.jsp?006557　MSサポート技術情報:827072<br>MSサポート技術情報:830289<br>NEC情報番号:006557",
+			"extracted_metadata": {
+				"sha1": "f649afcf4fc62e94a34fbc10f58b0a6a15aff316",
+				"filename": "row.json",
+				"file_type": "json"
+			},
+			"highlight": {
+				"question": [
+					"<em>Windows</em> XP<em>で</em>自動ログオン<em>が</em>できなくなった　　<em>Windows</em> XP<em>で</em>自動ログオン<em>の</em>設定をしていた<em>が</em>、ある時から自動<em>で</em>ログインせず、<em>起動</em>時に「ようこそ画面」<em>が</em>表示され、ユーザをいちいち選択しないとログオンできなくなった。回避<em>方法</em><em>が</em><em>知り</em><em>たい</em>。"
+				],
+				"answer": [
+					"Webページ&nbsp;-&nbsp;サポート技術情報:827072<br><br>.NET&nbsp;Framework&nbsp;1.1<em>の</em>インストール後、<em>Windows</em>&nbsp;XP<em>の</em><em>起動</em>時に",
+					"<br>　本件は、(ドメイン<em>で</em>はなく)ワークグループ環境<em>で</em>利用しているPCに.NET&nbsp;Framework&nbsp;をインストールした場合(<em>Windows</em>&nbsp;Update等<em>で</em>提供さ",
+					"アカウント「ASP.NET&nbsp;Machine&nbsp;Accont」に起因します。<br><br>　詳細<em>の</em>原因及び対処<em>方法</em>は下記<em>の</em>Webをご参照下さい。<br><br><br>マイクロソフト社",
+					"&nbsp;Home&nbsp;Style&nbsp;+&nbsp;<em>の</em>インストール後、ようこそ画面<em>が</em>表示される<br><br>121ware.com&nbsp;-&nbsp;情報番号:006557",
+					"<br><em>Windows</em>&nbsp;Update後、<em>起動</em>時にユーザーアカウントを選択するようになった場合<br><br>登録日　2004/07/21<br><br>備考　No.6649<br><br><br"
+				]
+			}
+		},
+		{
+			"id": "56356",
+			"score": 1,
+			"question": "[Windows] 削除しても影響のないフォルダ・ファイルを知りたい",
+			"answer": "[ゴール]<br><DIV><DIV>削除しても影響のないフォルダ・ファイルについての情報</DIV></DIV><br><br>[情報]<br><DIV>Microsoft Windows</DIV><br><br>[処置]<br><DIV>　ご使用中のサーバ･クライアントで空き容量に余裕がなくなってきた場合、以下のフォルダ･ファイルを削除することが可能です｡「○（または◎）」はそのフォルダ内･ファイルを削除可能であること、「△」は環境によっては削除可能であることを示します｡<BR>　削除の際には［スタート］→［検索］から該当のフォルダ･ファイルを検索することをお勧めします｡なお、一覧表には環境によって初めから存在しないフォルダ･ファイルを含みます｡<BR>　安全のため、一時的にファイルを別フォルダに移動し、マシンの運用に問題がないと判断してから削除する方がよいでしょう｡<BR><BR>　　削除可能なフォルダ一覧<BR><IMG alt=folder.jpg src=\"bind/fc2ed189-8a15-42ec-8adb-937a719b0d7ffolder.jpg\"><BR><BR>　　削除可能なファイル一覧<BR><IMG alt=file.jpg src=\"bind/fc2ed189-8a15-42ec-8adb-937a719b0d7ffile.jpg\"></DIV><br><br>",
+			"extracted_metadata": {
+				"sha1": "820e249955425bbec914f65918531afe06da1712",
+				"filename": "row.json",
+				"file_type": "json"
+			},
+			"highlight": {
+				"question": [
+					"[<em>Windows</em>] 削除しても影響<em>の</em>ないフォルダ・ファイルを<em>知り</em><em>たい</em>"
+				],
+				"answer": [
+					"</DIV><br><br>[処置]<br><DIV>　ご使用中<em>の</em>サーバ･クライアント<em>で</em>空き容量に余裕<em>が</em>なくなってきた場合、以下<em>の</em>フォルダ･ファイルを削除すること<em>が</em>可能です｡「○（または◎）」はそのフォルダ内",
+					"[ゴール]<br><DIV><DIV>削除しても影響<em>の</em>ないフォルダ・ファイルについて<em>の</em>情報</DIV></DIV><br><br>[情報]<br><DIV>Microsoft <em>Windows</em>",
+					"は環境によって初めから存在しないフォルダ･ファイルを含みます｡<BR>　安全<em>の</em>ため、一時的にファイルを別フォルダに移動し、マシン<em>の</em>運用に問題<em>が</em>ないと判断してから削除する方<em>が</em>よいでしょう｡<BR><BR",
+					"･ファイルを削除可能であること、「△」は環境によっては削除可能であることを示します｡<BR>　削除<em>の</em>際には［スタート］→［検索］から該当<em>の</em>フォルダ･ファイルを検索することをお勧めします｡なお、一覧表に",
+					">　　削除可能なフォルダ一覧<BR><IMG alt=folder.jpg src=\"bind/fc2ed189-<em>8</em>a15-42ec-<em>8</em>adb-937a719b0d7ffolder.jpg\"><BR"
+				]
+			}
+		}
+	]
+}

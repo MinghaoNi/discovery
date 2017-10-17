@@ -11,7 +11,7 @@ import shlex
 CRENDIALS = {'username': '75f48542-23da-4e17-a5ed-af780c16cc92',
              'password': 'q6e5a4U4nsqS'}
 
-VERSON = '2017-09-01'
+VERSON = '2017-10-16'
 BASE_URL = 'https://gateway.watsonplatform.net/discovery/api'
 
 
@@ -118,12 +118,98 @@ def train(csv_file, environment_id, collection_id, debug=False):
         print("Temporary File {} Removed!".format(train_query_file))
 
 
+def test(csv_file='_docs/test.csv',
+         environment_id='af3e2cb0-4fee-419a-933c-256a0d473266',
+         collection_id='bb18e626-4fda-4989-b8b5-44095c2cd542',
+         debug=False):
+    """upload csv file to test
+    **PLEASE CHECK THE ENCODING OF CSV FILE.**
+    It is ALWAYS a good practise to save a csv/txt file in UTF-8 encoding.
+
+    :param csv_file: path of csv file
+    :type csv_file: string of directory
+    :param environment_id: id of environment to upload to
+    :type environment_id: string
+    :param collection_id: id of collection to upload to
+    :type collection_id: string
+    """
+
+    QUERY_URL = '/v1/environments/{}/collections/{}/query?version={}&passages={}&natural_language_query='\
+                .format(environment_id, collection_id, VERSON, 'true')
+
+    with open(csv_file, newline='') as csvfile:
+        csv_reader = csv.reader(csvfile, delimiter=',')
+
+        test_result = {"query": [],
+                       "true_answer_id": [],
+                       "first_response_id": [],
+                       "first_response_text": [],
+                       "second_response_id": [],
+                       "second_response_text": [],
+                       "third_response_id": [],
+                       "third_response_text": []
+                       }
+
+        for row in csv_reader:
+            import urllib.parse
+            query_jp = row[0]
+            # url encode string
+            query = urllib.parse.quote_plus(query_jp)
+
+            # add query content in test result
+            test_result['query'].append(query_jp)
+            # add true answer id in test result
+            test_result['true_answer_id'].append(row[1])
+
+            url = BASE_URL + QUERY_URL + query
+
+            curl_cmd = 'curl -u "{}":"{}" "{}"'.format(CRENDIALS['username'], CRENDIALS['password'], url)
+
+            process = subprocess.Popen(shlex.split(curl_cmd), stdout=subprocess.PIPE)
+            output = process.communicate()[0]
+
+            # read answers from output
+            import ast
+            results = ast.literal_eval(output.decode('utf-8'))['results']
+
+            # store answsers
+            test_result["first_response_id"].append(results[0]['id'])
+            test_result["first_response_text"].append(results[0]['question'])
+            test_result["second_response_id"].append(results[1]['id'])
+            test_result["second_response_text"].append(results[1]['question'])
+            test_result["third_response_id"].append(results[2]['id'])
+            test_result["third_response_text"].append(results[2]['question'])
+
+            if debug:
+                print(output[0])
+
+            time.sleep(0.5)
+
+    return test_result
+
+
+def to_csv(result, to_csv_file):
+    """convert result to save as csv
+
+    :param to_csv_file: path of csv you want to save as
+    """
+    import pandas as pd
+
+    df = pd.DataFrame.from_dict(result)
+    df.to_csv(to_csv_file, index=None)
+
+
 if __name__ == '__main__':
 
     # upload(csv_file='_docs/index.csv',
     #        environment_id='af3e2cb0-4fee-419a-933c-256a0d473266',
     #        collection_id='bb18e626-4fda-4989-b8b5-44095c2cd542')
 
-    train(csv_file='_docs/training.csv',
-          environment_id='af3e2cb0-4fee-419a-933c-256a0d473266',
-          collection_id='bb18e626-4fda-4989-b8b5-44095c2cd542')
+    # train(csv_file='_docs/training.csv',
+    #       environment_id='af3e2cb0-4fee-419a-933c-256a0d473266',
+    #       collection_id='bb18e626-4fda-4989-b8b5-44095c2cd542')
+
+    result = test(csv_file='_docs/test.csv',
+                  environment_id='af3e2cb0-4fee-419a-933c-256a0d473266',
+                  collection_id='bb18e626-4fda-4989-b8b5-44095c2cd542')
+    to_csv(result, "test_result.csv")

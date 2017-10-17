@@ -1,0 +1,3 @@
+first_response_id,first_response_text,query,second_response_id,second_response_text,third_response_id,third_response_text,true_answer_id
+14638,[Windows 2000] ターミナルサービスクライアントをインストールする方法,Windows 2000 に、ターミナルサービスクライアントをインストールしたい,56111,[Windows XP]  Windows XP でWindows 2000 Serverのサーバー用管理ツールを使うことについて,36427,［Windows］ターミナルサービスクライアントでのショートカット,14638
+32602,[Windows 2000 Server] ユーザがActiveDirectoryにログオンできなくなった,Windows 2000 Server で、ユーザが ActiveDirectory にログオンできなくなった,36405,[Windows2000]コンピュータに今まで使用していたユーザ名とパスワードを入れてもログオンできない,13723,[Windows 2000 Server] ネットワークドライブに再接続できていない、サーバで共有している「SMILE」が起動しない,32602
